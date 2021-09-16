@@ -6,7 +6,7 @@ from aiogram.contrib.fsm_storage.files import JSONStorage
 
 from utils import scheduled
 
-TOKEN = '1419134292:AAGr6LRmInyIlBrKSFX5FpEPnZHb3J2RwlE'
+TOKEN = ''
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot, storage=JSONStorage('aiogram.json'))
 runner = Executor(dp, skip_updates=True)
